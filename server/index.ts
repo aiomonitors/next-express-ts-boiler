@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
     await app.prepare();
     const server = express();
     server.get('/hello', async (req, res) => {
-        return res.json({ hello: 'world' });
+        return res.json({ hello: 'world 🪐' });
     })
     server.get('/', (req, res) => {
         return app.render(req, res, '/');

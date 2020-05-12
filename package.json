@@ -1,12 +1,14 @@
 {
-  "name": "member-dashboard-app",
+  "name": "next-express-ts-boiler",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.17.6",
     "@types/mongoose": "^5.7.16",
+    "@types/next": "^9.0.0",
     "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "colors": "^1.4.0",
     "cookie-parser": "^1.4.5",
@@ -32,9 +34,11 @@
   "devDependencies": {
     "@types/node": "^13.13.5",
     "@types/react": "^16.9.35",
-    "nodemon": "^2.0.3",
     "ts-node": "^8.10.1",
     "tslint": "^6.1.2",
     "typescript": "^3.8.3"
-  }
+  },
+  "description": "A boilerplate to create applications with Next.JS, Express, Typescript and SCSS",
+  "repository": "https://github.com/aiomonitors/next-express-ts-boiler.git",
+  "author": "Shihab Chowdhury <sachow168@gmail.com>"
 }
