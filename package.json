@@ -34,6 +34,7 @@
     "@types/react": "^16.9.35",
     "nodemon": "^2.0.3",
     "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
     "typescript": "^3.8.3"
   }
 }
