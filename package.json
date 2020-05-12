@@ -25,7 +25,7 @@
   },
   "scripts": {
     "dev": "next",
-    "dev:server": "ts-node-dev --project tsconfig.server.json server/index.ts",
+    "dev:server": "tsnd --ignore-watch .next --ignore-watch node_modules --project tsconfig.server.json server/index.ts",
     "build:server": "tsc --project tsconfig.server.json",
     "build:next": "next build",
     "build": "npm run build:next && npm run build:server",
