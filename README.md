@@ -23,9 +23,9 @@ All your server code should be put in `server/`. Anything in this directory will
 All your frontend code should be put in `src/`.  Anything in this directory will be compiled into `.next/`
 
 ### Commands
-`yarn start`        - Starts the server (Note: Must have run `yarn build` before using this command)
-`yarn build:server` - Compiles the `server/` directory into `dist/` 
-`yarn build:next`   - Builds the `src/` directory into `.next/` for production
-`yarn build`        - Runs `yarn build:server` & `yarn build:next`
-`yarn dev:server`   - Starts the application using `ts-node-dev` and reloads when changes are detected in `server/`
-`yarn dev`          - Starts the next application (Note: Does not start the server)
+`yarn start`        - Starts the server (Note: Must have run `yarn build` before using this command) <br/>
+`yarn build:server` - Compiles the `server/` directory into `dist/`  <br/>
+`yarn build:next`   - Builds the `src/` directory into `.next/` for production <br/>
+`yarn build`        - Runs `yarn build:server` & `yarn build:next` <br/>
+`yarn dev:server`   - Starts the application using `ts-node-dev` and reloads when changes are detected in `server/` <br/>
+`yarn dev`          - Starts the next application (Note: Does not start the server) <br/>
