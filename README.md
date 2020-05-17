@@ -28,4 +28,4 @@ All your frontend code should be put in `src/`.  Anything in this directory will
 `yarn build:next`   - Builds the `src/` directory into `.next/` for production <br/>
 `yarn build`        - Runs `yarn build:server` & `yarn build:next` <br/>
 `yarn dev:server`   - Starts the application using `ts-node-dev` and reloads when changes are detected in `server/` <br/>
-`yarn dev`          - Starts the next application (Note: Does not start the server) <br/>
+`yarn dev`          - Starts the next application (Note: Does not start the server) <br/># member-dashboard
