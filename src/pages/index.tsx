@@ -3,7 +3,11 @@ import '../styles/index.scss';
 import { NextPage } from 'next';
 import { hello } from '../services/service';
 
-const IndexPage: NextPage = ({ hello }: { hello: string }) => {
+type PageProps = {
+    hello: string;
+}
+
+const IndexPage: NextPage<PageProps> = ({ hello }: PageProps) => {
 	return ( 
 		<div className="main">
             This is a boilerplate using Next.JS, Express, TypeScript, and SCSS to create a web application.
